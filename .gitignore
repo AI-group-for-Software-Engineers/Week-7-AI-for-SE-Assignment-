@@ -1,0 +1,35 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs from fairness audit (ignore everything in outputs/)
+outputs/*
+
+# Environment variables
+.env
+.env.*
+
+# IDE/editor config
+.vscode/
+.idea/
+
+# Cache
+.cache/
